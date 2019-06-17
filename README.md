@@ -37,7 +37,7 @@ This is always true and never changes.
 This assignment includes several examples showing how invalid indexes
 could affect programs.  In this first example, `wrongindex1.c`, wrong
 indexes `5`, `6`, `7`, `-1`, and `-2` were used. The value of `y` was changed by
-index `-1`; the value of `x` was changed by index `-2`.  If the program
+index `-1`; the value of `x` was changed by index `7`.  If the program
 never checks the value of `x` or `y`, the program may appear correct.
 
 In the second example, `wrongindex2.c`, even though `x` was not passed to
