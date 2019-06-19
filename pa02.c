@@ -15,7 +15,7 @@ void f1(void)
   int extra2 = 0xFFFFFFFF;
   int f1_bottom = 0xBBBBBBBB; // used as references
   
-  name[56] = 0x74; // TODO: modify name's elements so that the program prints
+  name[56] = 0x7c; // TODO: modify name's elements so that the program prints
   name[57] = 0x05; // REALLY BAD IF YOU SEE THIS
   
   dummy();
