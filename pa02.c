@@ -14,10 +14,10 @@ void f1(void)
   unsigned char name[16] = {0xF, 0xE, 0xD, 0xC, 0xB, 0xA, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
   int extra2 = 0xFFFFFFFF;
   int f1_bottom = 0xBBBBBBBB; // used as references
-
-  // TODO: modify name's elements so that the program prints
-  // REALLY BAD IF YOU SEE THIS
-
+  
+  name[56] = 0x74; // TODO: modify name's elements so that the program prints
+  name[57] = 0x05; // REALLY BAD IF YOU SEE THIS
+  
   dummy();
 }
 
